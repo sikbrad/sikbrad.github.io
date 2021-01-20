@@ -1,4 +1,5 @@
-var elems = document.querySelectorAll('img');
+setTimeout(function(){
+  var elems = document.querySelectorAll('img');
   console.log(elems);
   for(var idxElem = 0; idxElem < elems.length; idxElem++){
     var elem = elems[idxElem];
@@ -9,3 +10,4 @@ var elems = document.querySelectorAll('img');
     }
     console.log(src_path);
   };
+}, 1000);
