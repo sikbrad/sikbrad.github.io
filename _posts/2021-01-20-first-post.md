@@ -45,7 +45,7 @@ tags: jekyll github.io blogging
 
 * [Chirpy](http://jekyllthemes.org/themes/jekyll-theme-chirpy/) - 블로그 포스트를 분류할때 좋아보인다. 난 이걸로 선택.
 
-  ![](http://jekyllthemes.org/thumbnails/chirpy.png)
+  ![chirpy](../assets/post_images/chirpy.png)
 
 * [hcj](https://github.com/codeasashu/hcz-jekyll-blog) - 이것도 분류 좋아보이나, 폴더기능 딱 하나 없어서 아쉽다.
 
@@ -55,9 +55,9 @@ tags: jekyll github.io blogging
 
   ![](https://raw.githubusercontent.com/vsoch/docsy-jekyll/master/assets/img/docsy-jekyll.png)
 
-* [RTD](http://jekyllthemes.org/themes/jekyll-rtd-theme/) - 이것도 문서화 할때 좋겠다. 많이 보던 양식. [Python flask](https://flask-doc.readthedocs.io/en/latest/) 가 이 스타일이었는데.
+* [RTD](http://jekyllthemes.org/themes/jekyll-rtd-theme/) - 이것도 문서화 할때 좋겠다. 많이 보던 양식. [Python flask](https://flask-doc.readthedocs.io/en/latest/) 가 이 스타일이었는데. 트라우마...
 
-  ![img](http://jekyllthemes.org/thumbnails/jekyll-rtd-theme.png)
+  ![img](https://user-images.githubusercontent.com/68011645/88376699-87980500-cdd0-11ea-8900-7bab8c811bc9.png)
 
 
 
