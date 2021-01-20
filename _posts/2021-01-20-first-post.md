@@ -29,6 +29,30 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 
 
+adding image 6
+
+![1611158694397](/assets/post_images/1611158694397.png)
+
+adding image 5
+
+![1611158593966](assets/post_images/1611158593966.png)
+
+
+
+adding image 4
+
+![1611158307743](./assets/post_images/1611158307743-1611158468806.png)
+
+![1611158307743](/assets/post_images/1611158307743.png)
+
+![1611158307743](assets/post_images/1611158307743.png)
+
+adding image3
+
+![1611158177152](assets/1611158177152.png)
+
+next is practice2
+
 ![1611157429976](/assets/post_images/1611157429976.png)
 
 
