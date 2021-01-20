@@ -29,50 +29,6 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 
 
-adding image 6
+dotdot
 
-![1611158694397](/assets/post_images/1611158694397.png)
-
-adding image 5
-
-![1611158593966](assets/post_images/1611158593966.png)
-
-
-
-adding image 4
-
-![1611158307743](./assets/post_images/1611158307743-1611158468806.png)
-
-![1611158307743](/assets/post_images/1611158307743.png)
-
-![1611158307743](assets/post_images/1611158307743.png)
-
-adding image3
-
-![1611158177152](assets/1611158177152.png)
-
-next is practice2
-
-![1611157429976](/assets/post_images/1611157429976.png)
-
-
-
-![1611157312782](/assets/post_images/1611157312782.png)
-
-![1611157251262](2021-01-20-first-post.assets/1611157251262.png)
-
-img test 1![1611157213559](1611157213559.png)
-
-![1611157192031](C:/Users/USER/AppData/Roaming/Typora/typora-user-images/1611157192031.png)
-
-![1611157111397](DevBlogsikbrad_githubio2assets/1611157111397.png)
-
-![1611157065158](assets/2021-01-20-first-post/1611157065158.png)
-
-![1611156991000](../assets/2021-01-20-first-post/1611156991000.png)
-
-img test2
-
-![1611155082621](./assets/1611155082621.png)
-
-![1611155082621](/assets/1611155082621.png)
+![1611160340913](../assets/post_images/1611160340913.png)
