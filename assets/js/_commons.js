@@ -21,3 +21,6 @@
 {% include_relative _commons/checkbox.js %}
 
 {% include_relative _utils/tooltip-loader.js %}
+
+{% include_relative _commons/post_image_src_change.js %}
+
