@@ -45,7 +45,7 @@ tags: jekyll github.io blogging
 
 * [Chirpy](http://jekyllthemes.org/themes/jekyll-theme-chirpy/) - 블로그 포스트를 분류할때 좋아보인다. 난 이걸로 선택.
 
-  ![chirpy](../assets/post_images/chirpy.png)
+  ![1611166581874](../assets/post_images/1611166581874.png)
 
 * [hcj](https://github.com/codeasashu/hcz-jekyll-blog) - 이것도 분류 좋아보이나, 폴더기능 딱 하나 없어서 아쉽다.
 
@@ -57,7 +57,7 @@ tags: jekyll github.io blogging
 
 * [RTD](http://jekyllthemes.org/themes/jekyll-rtd-theme/) - 이것도 문서화 할때 좋겠다. 많이 보던 양식. [Python flask](https://flask-doc.readthedocs.io/en/latest/) 가 이 스타일이었는데. 트라우마...
 
-  ![img](https://user-images.githubusercontent.com/68011645/88376699-87980500-cdd0-11ea-8900-7bab8c811bc9.png)
+  ![88376699-87980500-cdd0-11ea-8900-7bab8c811bc9](../assets/post_images/88376699-87980500-cdd0-11ea-8900-7bab8c811bc9.png)
 
 
 
@@ -127,10 +127,20 @@ _posts/asset을 static page로 서빙하면 이미지를 웹어서 바로 볼 �
 
 다행히 _config.js 에서 dark mode 옵션을 준다. 굳.
 
-## 귀찮아
+### 귀찮아
 
 * push가 귀찮아 -> bat 스크립트 만듦.
 * 로컬에서 한번 돌리고 올려야하는데 귀찮아 -> bat 스크립트 만듦.
+
+
+
+## 예상되는 문제, 당장 보이는 문제
+
+* set timeout으로 막 만든 이미지 로드 스크립트... 성능문제도 있고 이미지 안보이는 문제도 있고.
+* Typora 환경설정을 해줘야만 돌아가고, 그렇게 환경설정 해두면 다른 위치에서 마크다운 만들었을때 문제가 생긴다. 이걸 원천봉쇄 하려면 마크다운 프로그램을 2개 사용해줘야하는데... 방법없을까?
+* 커밋 할때마다 commit message가 동일함... 너무 뭉갰나?
+* Typora에 삽입하는 이미지 파일의 이름이 같을 경우...는 별상관 없는듯. 이름 중복될경우 알아서 뒤에 랜덤숫자 붙여준다.
+* 또?
 
 
 
