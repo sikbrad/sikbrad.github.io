@@ -24,7 +24,7 @@ tags: jekyll github.io blogging
 * 콘텐츠를 검색/태그/폴더로 분류 할 수 있을 것 -> 테마 찾음
 * 댓글을 달 수 있을것 -> TODO
 * 구글 통한 유입이 잘 될 것 -> notion 탈락. TODO.
-* 통계도 될 것 -> TODO with GA
+* 통계도 될 것 -> TODO with GA -> AM4:00 추가완료
 
 
 
