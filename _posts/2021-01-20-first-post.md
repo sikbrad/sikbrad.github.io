@@ -118,9 +118,10 @@ _posts/asset을 static page로 서빙하면 이미지를 웹어서 바로 볼 �
 
 다행히 _config.js 에서 dark mode 옵션을 준다. 굳.
 
-## Push 귀찮아
+## 귀찮아
 
-bat 스크립트 만듦.
+* push가 귀찮아 -> bat 스크립트 만듦.
+* 로컬에서 한번 돌리고 올려야하는데 귀찮아 -> bat 스크립트 만듦.
 
 
 
