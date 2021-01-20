@@ -87,22 +87,28 @@ _posts/asset을 static page로 서빙하면 이미지를 웹어서 바로 볼 �
 
 * Jekyll js library에서
 
-  * js 파일을 asset에 하나 만들고, 소스를 작성했다. 공식사이트로도 검색으로도, post가 실제로 로드가 끝나는 타이밍에 대한 이벤트에 대한 정보를 잡을수가 없었다. 그래서 ad-hoc으로, 1초 뒤에 변경되도록 timeout을 ~~무식하게~~ 걸었다. 빨리 블로그 구성하고 일 하는게 목적이니.. 기술부채로 쌓아두자.
+  * js 파일을 asset에 하나 만들고, 소스를 작성했다. 공식사이트로도 검색으로도, post가 실제로 로드가 끝나는 타이밍에 대한 이벤트에 대한 정보를 잡을수가 없었다. 그래서 ad-hoc으로, 1초 뒤에 변경되도록, 그리고 5초마다 갱신되도록 timeout, interval을 ~~무식하게~~ 걸었다. 빨리 블로그 구성하고 일 하는게 목적이니.. 기술부채로 쌓아두자.
 
     ``` javascript
+    var fnRenewImgSrc = function(is_log){
+      var elems = document.querySelectorAll('img');
+      if(is_log) console.log(elems);
+      for(var idxElem = 0; idxElem < elems.length; idxElem++){
+        var elem = elems[idxElem];
+        var src_path = elem.getAttribute('src');
+        if(src_path.startsWith("../")){
+            src_path = src_path.substring(2);
+            elem.setAttribute('src',src_path);
+        }
+        if(is_log) console.log(src_path);
+      };
+    }
     setTimeout(function(){
-      var elems = document.querySelectorAll('img');
-      console.log(elems);
-      for(var idxElem = 0; idxElem < elems.length; idxElem++){
-        var elem = elems[idxElem];
-        var src_path = elem.getAttribute('src');
-        if(src_path.startsWith("../")){
-            src_path = src_path.substring(2);
-            elem.setAttribute('src',src_path);
-        }
-        console.log(src_path);
-      };
-    }, 1000); //1초 뒤 경로 갱신
+      fnRenewImgSrc(true); //for the fist time
+      setInterval(function(){
+        fnRenewImgSrc(false); //after that, when scrolls, image will be reloaded from time to time.
+      }, 5000);
+    }, 1000);
     ```
 
     
@@ -112,6 +118,8 @@ _posts/asset을 static page로 서빙하면 이미지를 웹어서 바로 볼 �
 ![1611164717952](../assets/post_images/1611164717952.png)
 
 잘 뜨쥬?
+
+(혹시 당장 안떠도 5초 안에 뜰겁니다)
 
 
 
