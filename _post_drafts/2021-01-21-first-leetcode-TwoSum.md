@@ -2,7 +2,7 @@
 title: "First leetcode attempt"
 date: 2021-01-22 07:00:00 +0900
 categories: prog train
-tags: leet python
+tags: leet python eng
 ---
 ## Problem
 
