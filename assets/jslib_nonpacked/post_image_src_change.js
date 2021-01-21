@@ -15,5 +15,5 @@ setTimeout(function(){
   fnRenewImgSrc(true); //for the fist time
   setInterval(function(){
     fnRenewImgSrc(false); //after that, when scrolls, image will be reloaded from time to time.
-  }, 5000);
-}, 1000);
+  }, 2000);
+}, 500);
