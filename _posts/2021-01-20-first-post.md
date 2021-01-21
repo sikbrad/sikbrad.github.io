@@ -1,7 +1,7 @@
 ---
 title: "github.io + Jekyll 블로그를 설정해보았습니다"
 date: 2021-01-20 23:30:00 +0900
-categories: infra blogging
+categories: infra prod
 tags: jekyll github.io blogging
 ---
 
