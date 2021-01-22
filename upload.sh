@@ -1,0 +1,1 @@
+source ./upload.bat
