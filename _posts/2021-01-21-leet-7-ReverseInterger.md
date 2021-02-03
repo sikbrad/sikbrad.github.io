@@ -1,8 +1,8 @@
 ---
-title: "7 Reverse Interger"
+title: "7. Reverse Interger"
 date: 2021-01-23 07:45:00 +0900
 categories: prog train
-tags: leet python eng solved cheeped
+tags: leet python eng cheeped
 ---
 ## Problem
 
