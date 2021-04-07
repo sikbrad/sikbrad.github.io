@@ -51,10 +51,33 @@ or, this should work faster..
 
 ``` python
 def logd(*params):
-  # dbg
-  # print(*params)
-  # rel
-  pass
+        # dbg
+        # print(*params)
+        # rel
+        pass
+```
+
+
+
+# Datastructures
+
+### Listnodes
+
+``` python
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+```
+
+### BinaryTree
+
+``` python
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
 ```
 
 
