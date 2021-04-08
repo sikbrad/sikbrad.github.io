@@ -52,9 +52,47 @@ or, this should work faster..
 ``` python
 def logd(*params):
         # dbg
-        # print(*params)
+        print(*params)
         # rel
         pass
+```
+
+### print in iter
+
+``` python
+logd('idx:',idx,'  lst:',lst)
+```
+
+### prints hash
+
+```python
+for hkey, hval in hashofN.items():
+    if most_commons_occurence == hval:
+        list_most_commons.append(hkey)
+```
+
+# Python libs
+
+### Collections and combinations, permutations
+
+```python
+from itertools import combinations
+import collections
+
+# counter
+hashofN_counted = collections.Counter(hashofN)
+most_commons_occurence = hashofN_counted.most_common(1)[0][1]
+
+# combination
+combis = combinations([1,2,3], 2) # returns combi list, size of 2
+```
+
+### default dict
+
+``` python
+import collections
+
+collections.defaultdict(int)
 ```
 
 
